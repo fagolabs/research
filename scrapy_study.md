@@ -7,3 +7,6 @@ SCRAPY TIPS & TRICKS
 3. https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python
 4. https://github.com/AccordBox/awesome-scrapy
 5. https://www.accordbox.com/blog/scrapy-tutorial-series-web-scraping-using-python/
+6. https://portia.readthedocs.io/en/latest/index.html
+7. https://github.com/scrapinghub/portia
+8. 
