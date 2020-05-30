@@ -13,3 +13,4 @@ SCRAPY TIPS & TRICKS
 9. https://github.com/scrapy-plugins/scrapy-splash
 10. https://github.com/je-suis-tm/web-scraping
 11. https://github.com/dsasmita/python-stock-vietnammarkets
+12. https://github.com/KarypidisParis/crawler_for_investing.com
