@@ -9,4 +9,7 @@ SCRAPY TIPS & TRICKS
 5. https://www.accordbox.com/blog/scrapy-tutorial-series-web-scraping-using-python/
 6. https://portia.readthedocs.io/en/latest/index.html
 7. https://github.com/scrapinghub/portia
-8. 
+8. https://github.com/scrapinghub/splash
+9. https://github.com/scrapy-plugins/scrapy-splash
+10. https://github.com/je-suis-tm/web-scraping
+11. https://github.com/dsasmita/python-stock-vietnammarkets
