@@ -41,8 +41,11 @@ Các tổ chức sử dụng kết hợp phần mềm, quy trình và con ngư�
 - Crowdsourcing – Bạn sử dụng nền tảng của bên thứ ba để truy cập số lượng lớn nhân lực cùng một lúc.
 
 # 2. Các Thuật toán được sử dụng trong hệ thống gợi ý (Recommendation System)
-
-
+- Pearson correlation
+- Clustering algorithms
+- Bayesian Belief Nets
+- Markov chains
+- Rocchio classification
 
 # Refs
 ---
