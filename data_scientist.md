@@ -41,11 +41,16 @@ Các tổ chức sử dụng kết hợp phần mềm, quy trình và con ngư�
 - Crowdsourcing – Bạn sử dụng nền tảng của bên thứ ba để truy cập số lượng lớn nhân lực cùng một lúc.
 
 # 2. Các Thuật toán được sử dụng trong hệ thống gợi ý (Recommendation System)
-- Pearson correlation
-- Clustering algorithms
-- Bayesian Belief Nets
-- Markov chains
-- Rocchio classification
+- Pearson correlation: Pearson correlation hay còn gọi là hệ số tương quan pearson, dùng để đo lường mức độ tương quan giữa 2 người dùng (và các thuộc tính của họ, chẳng hạn như các bài báo được đọc từ một bộ sưu tập các blog) có thể được tính toán chính xác với pearson correlation . Nguyên tắc cơ bản của thuật toán là đo lường sự phụ thuộc tuyến tính giữa hai biến (hoặc người dùng). Do đó, phân tích tương quan Pearson còn được gọi là phân tích hồi quy đơn giản (nhưng khác nhau về mặt ý nghĩa).
+- Clustering algorithms: Được dùng trong mô hình dữ liệu ngẫu nhiên (hoặc không có nhãn). Chúng hoạt động bằng cách xác định các điểm tương đồng giữa các đối tượng. Số lượng các feature độc lập là kích thước của không gian. Những dữ liệu có tính chất tương tự nhau sẽ được gom lại thành một nhóm, dữ liệu của hai nhóm khác nhau sẽ có tính chất khác nhau.
+Có nhiều nhóm giải thuật khác nhau được dùng để phân cụm dữ liệu: hierarchical clustering, partitioning, density-based, model-based, etc. Nhưng đơn giản và được sử dụng nhiều nhất là giải thuật K-means phân chia các thành phần thành k cụm. Ban đầu các mục được ngẫu nhiên đặt vào các cụm. Sau đó tâm của các cụm này sẽ được tính dựa vào khoảng cách của các item trong cụm. Khoảng cách của mỗi item tính từ tâm sẽ được kiểm tra, nếu một đối tượng sau khi kiểm tra thấy nó gần với tâm của một cụm khác, nó sẽ được di chuyển tới cụm đó. Tâm của cụm sẽ được tính toán lại lần nữa, đến khi nào nó đạt được sự ổn định, có nghĩa là không có item nào di chuyển trong các quá trình kiểm tra lặp lại, thì tập hợp đã được nhóm đúng và thuật toán kết thúc.
+- Bayesian Belief Nets: có thể được hình dung như là một đồ thị không tuần hoàn, với các cung đại diện cho các xác suất liên quan giữa các biến.
+- Markov chains: có cách tiếp cận tương tự với Bayesian Belief Nets nhưng viêc xử lý vấn đề sẽ tối ưu hoá tuần tự thay vì chỉ đơn giản là dự đoán.
+- Rocchio classification: khai thác thông tin phản hồi về tính phù hợp của item để cải thiện độ chính xác của các gợi ý
+
+**Những thách thức khi xây dựng hệ thống gợi ý**: Một trong những thách thức đối với bất kỳ hệ thống gợi ý nào là vấn đề người dùng mới (new user) hoặc mục tin mới (new item) – hay còn được gọi là “cold-start problem” – do họ chưa có bất kỳ thông tin đánh giá nào trong quá khứ nên giải thuật không thể dự đoán được. Nhưng theo nghiên cứu và tìm hiểu của tôi, bạn hoàn toàn có thể giải quyết vấn đề user cold start bằng cách gợi ý những item được nhiều người đánh giá cao và phù hợp với thông tin đăng ký của người dùng: thông tin cá nhân, sở thích dựa vào ngữ cảnh hiện tại của những người dùng hoặc theo chủ đề mà họ quan tâm.
+
+
 
 # Refs
 ---
