@@ -1,5 +1,6 @@
 Machine Learning
 ---
+Keywords: Recommendation engines, 
 
 # 1. Dán nhãn dữ liệu trong Machine Learning
 Bạn có rất nhiều dữ liệu chưa được dán nhãn? Hầu hết dữ liệu không ở dạng được dán nhãn và đây là một thách thức lớn với dự án AI. Theo phân tích của Cognilytica, một dự án AI dành 80% thời gian cho việc thu thập, sắp xếp và dán nhãn dữ liệu. Trong cuộc chạy đua công nghệ khắc nghiệt hiện nay thì quỹ thời gian đó là vô cùng quý giá. Một bộ dữ liệu hoàn chỉnh được cấu trúc và dán nhãn đúng là bước chạy đà quan trọng nhất phục vụ cho mục đích đào tạo và triển khai các mô hình.
@@ -39,7 +40,12 @@ Các tổ chức sử dụng kết hợp phần mềm, quy trình và con ngư�
 - Nhà thầu – Nhân viên tạm thời hoặc là freelancer.
 - Crowdsourcing – Bạn sử dụng nền tảng của bên thứ ba để truy cập số lượng lớn nhân lực cùng một lúc.
 
-Refs
+# 2. Các Thuật toán được sử dụng trong hệ thống gợi ý (Recommendation System)
+
+
+
+# Refs
 ---
 1. https://github.com/mjbahmani/10-steps-to-become-a-data-scientist
 2. https://testerviet.com.vn/khai-niem-dan-nhan-du-lieu-trong-machine-learning/
+3. https://viblo.asia/p/cac-thuat-toan-duoc-su-dung-trong-he-thong-goi-y-recommendation-system-oOVlYyPal8W
